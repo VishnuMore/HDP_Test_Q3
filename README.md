@@ -18,6 +18,18 @@ hive> INSERT OVERWRITE LOCAL DIRECTORY '/home/vishnu/Documents/Q3_output_csv' SE
 
 The Query and the terminal actual execuation uloaded/provided in text file for more details.
 
+# Here for Q3, I have genrated output in following format:
+
+empolyee_no department designation first_name last_name from_date to_date
+
+Here I have shown old designation,old department,new designation,new department in multiple record format except in one row i.e Following two records from output is for the same user.
+
+In following output the user 10010 having first record as department:prodution its his old department & the second record as department: Quality Management its his current department.in this patteren I have shown result.
+
+10010�Production�Engineer�Duangkaew�Piveteau�1996-11-24�2000-06-26 10010�Quality Management�Engineer�Duangkaew�Piveteau�2000-06-26�9999-01-01
+
+
+
 ** Added Directroy , File details as:
 
 1. "Q3_Output_CSV" under this directroy I have exported the used query result  in CSV file "000000_0"
